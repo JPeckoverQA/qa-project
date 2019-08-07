@@ -18,3 +18,4 @@ spec:
         image: jpeckover/self-reflection:latest
         ports:
         - containerPort: 8082
+      restartPolicy: OnFailure

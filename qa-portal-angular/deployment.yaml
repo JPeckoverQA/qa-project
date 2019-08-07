@@ -17,3 +17,4 @@ metadata:
         containers:
         - name: angular
           image: yamileon/qa-ang
+        restartPolicy: OnFailure
